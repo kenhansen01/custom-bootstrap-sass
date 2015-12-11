@@ -47,7 +47,7 @@ $brand-danger:           map-get($brand-colors, team-red) !default;
 
 // [converter] If $bootstrap-sass-asset-helper if used, provide path relative to the assets load path.
 // [converter] This is because some asset helpers, such as Sprockets, do not work with file-relative paths.
-$font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../../../../dist/fonts/") !default;
+$font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/") !default;
 
 //** File name for all font files.
 $serif-font-name:         "Lora-Regular" !default;
