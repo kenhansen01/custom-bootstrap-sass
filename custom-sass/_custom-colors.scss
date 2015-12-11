@@ -1,0 +1,16 @@
+/************************************************************
+ * Background Color Classes
+ ************************************************************/
+
+@each $color-name, $color-value in $brand-colors {
+  @include background-color($color-name, $color-value);
+}
+
+
+/************************************************************
+ * Text Color Classes
+ ************************************************************/
+
+@each $color-name, $color-value in $brand-colors {
+  @include background-color($color-name, $color-value);
+}

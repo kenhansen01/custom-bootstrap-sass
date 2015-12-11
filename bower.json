@@ -1,0 +1,38 @@
+{
+  "name": "custom",
+  "authors": [
+    "kenhansen01 <k.e.hansen01@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.0-rc.0",
+    "angular-animate": "~1.5.0-rc.0",
+    "angular-aria": "~1.5.0-rc.0",
+    "angular-loader": "~1.5.0-rc.0",
+    "angular-messages": "~1.5.0-rc.0",
+    "angular-message-format": "~1.5.0-rc.0",
+    "angular-mocks": "~1.5.0-rc.0",
+    "angular-resource": "~1.5.0-rc.0",
+    "angular-route": "~1.5.0-rc.0",
+    "angular-sanitize": "~1.5.0-rc.0",
+    "angular-scenario": "~1.5.0-rc.0",
+    "angular-touch": "~1.5.0-rc.0",
+    "jquery": "~2.1.4",
+    "bootstrap-sass": "~3.3.6",
+    "requirejs": "~2.1.22"
+  }
+}

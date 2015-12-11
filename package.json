@@ -1,0 +1,25 @@
+{
+  "name": "custom",
+  "version": "0.1.0",
+  "description": "Customize Bootstrap-sass 3.3.x and build your own dist files. Includes jQuery, Angular & requirejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install && gulp"
+  },
+  "keywords": [],
+  "author": "kenhansen01 <k.e.hansen01@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.11",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglifyjs": "^0.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenhansen01/custom-bootstrap-sass.git"
+  },
+  "bugs": "https://github.com/kenhansen01/custom-bootstrap-sass/issues"
+}

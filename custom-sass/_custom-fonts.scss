@@ -1,0 +1,13 @@
+@at-root {
+  // Import the fonts
+  @font-face {
+    font-family: 'Lora Regular';
+    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font-path}#{$serif-font-name}.eot'), '#{$font-path}#{$serif-font-name}.eot'));
+    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font-path}#{$serif-font-name}.ttf'), '#{$font-path}#{$serif-font-name}.ttf')) format('truetype');
+  }
+  @font-face {
+    font-family: 'OpenSans Regular';
+    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font-path}#{$sans-font-name}.eot'), '#{$font-path}#{$sans-font-name}.eot'));
+    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$font-path}#{$sans-font-name}.ttf'), '#{$font-path}#{$sans-font-name}.ttf')) format('truetype');
+  }
+} 

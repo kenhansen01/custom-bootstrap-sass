@@ -1,0 +1,61 @@
+$bootstrap-sass-asset-helper: false !default;
+
+/****************************************************
+ * Custom Brand Colors
+ ****************************************************/
+
+$brand-colors: (
+  /* cross brand colors */
+  primary-green:          #548c3f,
+  highlight-green:        #b6d084,
+  rich-black:             #000000,
+
+  // internal brand colors
+  team-blue-highlight:    #5481c1, 
+  team-teal:              #52abb9,
+  team-light-brown:       #e3ab74,
+  team-brown:             #603525,
+  team-purple-highlight:  #a185a3,
+  team-purple:            #7c51a1,
+  team-dark-gray:         #9d9fa2,
+  team-light-gray:        #d1d3d4,
+  team-golden:            #f99d1c,
+  team-red:               #b21f24,
+
+  // external brand colors
+  deep-purple:            #622d91,
+  cyanish:                #00aeef,
+  navy-blue:              #003f56,
+  light-blue:             #6991cb,
+  supporting-green:       #80a63f,
+  brand-lavendar:           #a499ca,
+  brand-light-gray:         #c2c0c0,
+  brand-dark-gray:          #6f6f6f,
+);
+
+$brand-primary:          map-get($brand-colors, primary-green) !default; 
+$brand-success:          map-get($brand-colors, highlight-green) !default;
+$brand-info:             map-get($brand-colors, team-teal) !default;
+$brand-warning:          map-get($brand-colors, team-golden) !default;
+$brand-danger:           map-get($brand-colors, team-red) !default;
+
+/****************************************************
+ * Custom Font Overrides
+ ****************************************************/
+
+//** Load fonts from this directory.
+
+// [converter] If $bootstrap-sass-asset-helper if used, provide path relative to the assets load path.
+// [converter] This is because some asset helpers, such as Sprockets, do not work with file-relative paths.
+$font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../../../../Styles/fonts/") !default;
+
+//** File name for all font files.
+$serif-font-name:         "Lora-Regular" !default;
+//** Element ID within SVG icon file.
+$sans-font-name:          "OpenSans-Regular" !default;
+
+$font-family-sans-serif:  $sans-font-name, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       $serif-font-name, Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default; 
