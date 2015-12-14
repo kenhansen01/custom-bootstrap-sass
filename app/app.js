@@ -4,7 +4,7 @@ define([
   'angularRoute'
 ],
 function(angular, angularAnimate, andgularRoute){
-  return angular.module('bootstrapApp', ['ngRouter'])
+  return angular.module('bootstrapApp', ['ngRoute'])
   .controller('MainController', ['$location', '$router', MainController])
   .component('customBootstrap', {
     isolate: false,
