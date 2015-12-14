@@ -3,12 +3,14 @@
   <head>
     <title>Customize Bootstrap Sass Automatically</title>
     <link rel="stylesheet" href="dist/css/bootstrap-custom.css">
+    <script type="text/javascript" data-main="app/require-config" src="dist/js/require.js"></script>
     <meta name="description" content="Use Bootstrap-sass and a few customizeable files to easily create your own custom bootstrap files.">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
   </head>
-  <body>
+  <body ng-controller="MainController and main">
     <header class="jumbotron">
       <h1>Customizing Bootstrap</h1>
     </header>
+    <custom-bootstrap></custom-bootstrap>
   </body>
 </html>
