@@ -47,8 +47,7 @@ require([
   'app'
 ],
 function (angular, app){
-  var $body = angular.element(document.body);
   angular.element(document).ready(function(){
-    angular.bootstrap($body, ['bootstrapApp'], {strictDi: true});
+    angular.bootstrap(document, ['bootstrapApp'], {strictDi: true});
   });
 });
