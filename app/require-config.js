@@ -1,7 +1,7 @@
 'use strict';
 
 require.config({
-  baseUrl: 'custom-bootstrap-sass',
+  baseUrl: '',
   paths: {
     // Libraries
     angular: 'dist/js/angular/angular.min',
