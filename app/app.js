@@ -5,7 +5,7 @@ define([
 ],
 function(angular, angularAnimate, andgularRoute){
   return angular.module('bootstrapApp', ['ngRoute'])
-  .controller('MainController', ['$location', '$router', MainController])
+  .controller('MainController', ['$location', '$route', MainController])
   .component('customBootstrap', {
     isolate: false,
     template: [
@@ -15,7 +15,7 @@ function(angular, angularAnimate, andgularRoute){
     ].join('')
   });
   
-  function MainController($location, $router) {
+  function MainController($location, $route) {
     
   }
   
